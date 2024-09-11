@@ -24,4 +24,6 @@ Aarambh – A centralized platform for Indian heritage, culture, and languages. 
 8. Explore the Website.
 
 ## Output Images
-1.[Output Image 1] (
+[Output Image 1](https://github.com/AnshSachdeva312/AARAMBH-Virasat-se-ekta-ki-dor/blob/main/Output%20Image-1.png)
+[Output Image 2](https://github.com/AnshSachdeva312/AARAMBH-Virasat-se-ekta-ki-dor/blob/main/Output%20Image-2.png)
+[Output Image 3](https://github.com/AnshSachdeva312/AARAMBH-Virasat-se-ekta-ki-dor/blob/main/Output%20Image-3.png)
