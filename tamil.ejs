@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+     body{
+        background-color: rgb(249, 143, 4);
+        
+     }
+      .my-custom-spacing {
+        margin-left: 30px;
+        margin-right: 500px;
+      }
+      .darker-image {
+        filter: brightness(45%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="p-3 mb-3 border-bottom">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="#" class="nav-link px-2 link-secondary">Overview</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-2 link-body-emphasis">Customers</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-2 link-body-emphasis">Products</a>
+            </li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="dropdown text-end">
+            <a
+              href="#"
+              class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://github.com/mdo.png"
+                alt="mdo"
+                width="32"
+                height="32"
+                class="rounded-circle"
+              />
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div
+        class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary position-static image-container"
+      >
+        <div class="col-md-12">
+          <img
+            src="/images/tamilnadu-main.jpg"
+            height="300px"
+            width="1000px"
+            alt=""
+            class="image-fluid rounded darker-image"
+          />
+          <div
+            class="position-absolute top-50 start-45 translate-middle-y text-white"
+          >
+            <h1 class="display-10 my-custom-spacing">TAMIL NADU</h1>
+            <p class="lead my-custom-spacing fst-italic">
+                amil Nadu is a southern state of India which is supremely rich in culture and heritage. Known to be one of the oldest civilisations in the world, the people of Tamil Nadu belong to the prestigious Dravidian Family. 
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+             
+              <h3 class="mb-0">Tamil Cuisine</h3>
+        
+              <p class="card-text mb-auto">If you imagine 'South Indian Food', first things which pop in mind Idli, Dosa, Sambhar, Vada, Upma and what not. It's a typical Madrasi Food for North Indians. Tamil Food is popular in both vegetarian and non-vegetarian contexts. </p>
+              
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+  
+              <h3 class="mb-0">Religion</h3>
+              
+              <p class="mb-auto">A great amount of relevance is given to a person's religion when it comes to personal identity.</p>
+              
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-5">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            Traditional Dress
+          </h3>
+
+          
+         <p> In an area where tourism is the core economy booster, small handicrafts and souvenir jewellery are popular items found in the local markets. Skilled artisans reuse shells and coconut skins found on the beach to make stunning jewellery, frames, and showpieces for home decor. Apart from this, bamboo, brass, and silver are also widely sold in the form of jewellery and artefacts that attract tourists from across the globe.</p>
+           
+            <h3>Tamilian Music & Dance</h3>
+            
+            <p>Men can be seen wearing a Lungi with a shirt and Angavastra. Lungi is a rectangular cotton cloth tied across the waist, and Angavastra is a cloth draped around the shoulders. It can be worn over or without a shirt. Some people may also wear dhoti which is a long form of Lungi, the bottom of which is mostly stuck at the waist. Men also wear Vibhuti on their forehead.
+            </p>
+            <h3>  Architecture of TAMIL NADU</h3>
+            
+           <p>Tamilians have perfected the art of spinning, weaving and chiseling over the years and their brilliance is reflected in different art subjects like bronzes, sculptor works, carvings, etc. Magnificent temples represent Tamil architecture with lofty 'gopurams' and statues of goddesses engraved all over the edifice. Many well-known temples such as Meenakshi Amman Temple and Breehadeeshwara Temple are located here which displays a grand vista of ancient Hindu mythological diversity and Tamil heritage. 
+          
+          
+        </div>
+
+       
+    </main>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

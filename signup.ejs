@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  <title>Sign Up</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a2e;
+      font-family: 'Arial', sans-serif;
+      background-image: url("/images/Loginpage.jpg");
+      background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+    .container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .signup-box {
+      background-color: #5e0404;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+      width: 350px;
+      text-align: center;
+    }
+
+    .signup-box h2 {
+      color: #e94560;
+      margin-bottom: 30px;
+    }
+
+    .signup-box form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px; 
+    }
+
+    .signup-box input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff9d00; 
+      color: white;
+      box-sizing: border-box; 
+    }
+
+    .signup-box input[type="submit"] {
+      background-color: #e94560; 
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .signup-box input[type="submit"]:hover {
+      background-color: #d62f46;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .logo i {
+      font-size: 24px;
+      color: #d62f46;
+    }
+
+    a {
+      color: #e94560;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 20px; 
+    }
+
+    .links a {
+      display: block;
+      margin-top: 15px;
+    }
+
+    .links .login {
+      font-size: 14px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <i class="fa-solid fa-shield-alt logo-img"></i>
+  </div>
+  <div class="container">
+    <div class="signup-box">
+      <h2>Sign Up</h2>
+      <form action="/signup" method="POST">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <input type="submit" value="Sign Up">
+      </form>
+      <div class="links">
+        <a href="http://localhost:3000/login" class="login">Already have an account? Login</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

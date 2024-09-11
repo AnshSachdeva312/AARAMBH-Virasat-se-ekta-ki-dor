@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <style>
+       html, body {
+            margin: 0;
+            padding: 0;
+            background-image: url("/images/mainwebsiteimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  margin: 0; 
+  color: white;
+        }
+        .tagline {
+            width: 100%;
+            text-align: left;
+            font-size: 300px;
+            font-family: fantasy;
+            
+        }
+        .lead {
+        font-family: "Pinyon Script",cursive;
+        transform: scale(6,4);
+        transform-origin: left;
+}
+.container{
+  padding: 0%;
+  margin: 0%;
+}
+        .playwrite-cu-fnt {
+            font-family: "Playwrite CU", cursive;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-size: x-large;
+            font-style: normal;
+        }
+        .cover-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 100px;
+            
+            
+        }
+        .about-section {
+            background-color: #212529;
+            padding: 100px 0;
+            text-align: left;
+            margin-left: 0; 
+            margin-right: 0;
+            margin-top: 320px;
+            border-radius: 10px;
+        }
+        .about-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .about-section p {
+            font-size: 1.25rem;
+            margin-top: 20px;
+        }
+        .states {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 50px;
+          border-radius: 10px;
+          
+          background-color: #212529;
+        }
+        .stt h2{
+          margin-top: 70px;
+          color: white;
+          margin-left: 20px;
+          text-align: left;
+          font-size: 3rem;
+          font-weight: bold;
+        }
+        .box-states {
+          display: flex;
+          flex-wrap: wrap;
+          
+          width: 100%;
+        }
+        .sizee {
+          font-size: 30px;
+          color: rgb(191, 238, 252);
+        }
+        .state-box {
+          background-color: #343a40;
+          color: white;
+          font-weight: bold;
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          margin: 10px;
+          border-radius: 10px;
+          font-size: 1rem;
+          text-align: center;
+          width: calc(25% - 40px);
+          background-size: cover;
+          background-position: center;
+          width: 200px;
+          height: 150px;
+        }
+        .box-states:last-child {
+          display: flex;
+          justify-content: center;
+        }
+        .state-box:hover {
+          transform: scale(1.5);
+          font-size: x-large; 
+          font-weight: bold; 
+          
+        }
+        
+        .box-states a{
+          text-decoration: none;
+        }
+        .Arunachal{
+          background-image: url("/images/arunachal.jpg");
+          object-fit: contain;
+        }
+        .Andhra {
+          background-image: url("/images/Andhra.jpg");
+          object-fit: cover;
+        }
+        .Assam {
+          background-image: url("/images/assam.jpg");
+          object-fit: cover;
+        }
+        .Bihar {
+          background-image: url("/images/Bihar.jpg");
+          object-fit: cover;
+        }
+        .Chhattisgarh {
+          background-image: url("/images/chhatissgarh.jpg");
+          object-fit: cover;
+        }
+        .Goa {
+          background-image: url("/images/goa.jpg");
+          object-fit: cover;
+        }
+        .Gujarat {
+          background-image: url("/images/gujurat.jpg");
+          object-fit: cover;
+        }
+        .Haryana {
+          background-image: url("/images/harayana.jpg");
+          background-size: cover;
+        }
+        .Himachal {
+          background-image: url("/images/himachal.jpg");
+          object-fit: cover;
+        }
+        .Jharkhand {
+          background-image: url("/images/jharkhand.jpg");
+          object-fit: cover;
+        }
+        .Karnataka {
+          background-image: url("/images/karnataka.jpg");
+          object-fit: cover;
+        }
+        .Kerala {
+          background-image: url("/images/Kerala.jpg");
+          object-fit: cover;
+        }
+        .Madhya {
+          background-image: url("/images/madhya.jpg");
+          object-fit: cover;
+        }
+        .Maharashtra {
+          background-image: url("/images/Maha.jpg");
+          object-fit: cover;
+        }
+        .Manipur {
+          background-image: url("/images/manipur.jpg");
+          object-fit: cover;
+        }
+        .Meghalaya {
+          background-image: url("/images/meghalaya.jpg");
+          object-fit: cover;
+        }
+        .Mizoram {
+          background-image: url("/images/mizoram.jpg");
+          object-fit: cover;
+        }
+        .Nagaland {
+          background-image: url("/images/nagaland.jpg");
+          object-fit: cover;
+        }
+        .Odisha {
+          background-image: url("/images/odisha.jpg");
+          object-fit: cover;
+        }
+        .Punjab {
+          background-image: url("/images/nagaland.jpg");
+          object-fit: cover;
+        }
+        .Rajasthan {
+          background-image: url("/images/RAJASTHAN.jpg");
+          object-fit: cover;
+        }
+        .Sikkim {
+          background-image: url("/images/sikkim.jpg");
+          object-fit: cover;
+        }
+        .Tamil {
+          background-image: url("/images/tamil.jpg");
+          object-fit: cover;
+        }
+        .Telangana {
+          background-image: url("/images/telangana.jpg");
+          object-fit: cover;
+        }
+        .Tripura {
+          background-image: url("/images/tripura.jpg");
+          object-fit: cover;
+        }
+        .Uttar {
+          background-image: url("/images/Uttar\ Pradesh.jpg");
+          object-fit: cover;
+        }
+        .Uttarakhand {
+          background-image: url("/images/uttarakhand.jpg");
+          object-fit: cover;
+        }
+        .West {
+          background-image: url("/images/West\ Bengal.jpg");
+          object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+          .state-box {
+            width: calc(50% - 40px); 
+          }
+        }
+
+        @media (max-width: 480px) {
+          .state-box {
+            width: 100%;
+          }
+        }
+        footer {
+          color: white; 
+          background-color: black; 
+          padding: 20px 0; 
+          z-index: 1;
+        }
+        .navbar-logo {
+          width: 140px; 
+          height: 70px; 
+          margin-right: 10px; 
+          margin-left: 0%;
+}
+
+    </style>
+    <title>Document</title>
+  </head>
+  <body class=" h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="p-3 text-bg-dark">
+            <div class="container">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                  <img src="/images/mainsitelogo.png" alt="Aarambh Logo" class="navbar-logo">
+                </a>
+                
+        
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                  <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                  <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
+                  <li><a href="#statess" class="nav-link px-2 text-white">States</a></li>
+                  
+                </ul>
+        
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                  <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search" name="search">
+                </form>
+        
+                <div class="text-end">
+                  <a href="http://localhost:3000/login" class="btn btn-outline-light me-2">Login</a>
+                  <a href="http://localhost:3000/signup" class="btn btn-warning">Sign-up</a>
+                </div>
+              </div>
+            </div>
+          </header>
+
+      <main class="px-3">
+        <div class="cover-content">
+          <h1 class="tagline fnt">Aarambh</h1>
+          <p class="lead">
+            Virasat se Ekta ki Dor
+          </p>
+        </div>
+        <section id="about" class="about-section">
+          <div class="container-fluid">
+              <h2>About Us</h2>
+              <hr>
+              <p>
+                Aarambh is your one-stop platform dedicated to celebrating and preserving the rich, diverse cultural heritage of India. We bring together the unique traditions, art, languages, folklore, and customs from every corner of the country, all on a single platform. Our goal is to centralize and showcase the cultural wealth of all Indian states, making it easier for you to explore, learn, and engage with the heart and soul of our nation. From the breathtaking peaks of the Himalayas to the sun-kissed shores of Kerala, from the deserts of Rajasthan to the lush forests of the North-East, Aarambh is your gateway to rediscover the incredible diversity that defines India.
+
+<br>This platform is designed to bridge the gap between India’s timeless traditions and the modern digital age. By making the country’s vast heritage easily accessible, Aarambh enables students, travelers, and enthusiasts alike to connect with India’s cultural treasures in an immersive and user-friendly way.  
+
+<br>Whether you are searching for information on festivals, historical landmarks, regional cuisines, or traditional music and dance, Aarambh offers an enriching experience for everyone. With us, you can not only dive into India’s past but also witness the living heritage that continues to thrive today.
+
+<br><br>Join us as we embark on a journey of exploration, connection, and celebration. Be part of Aarambh – a new beginning in uniting and honoring the cultural legacy of India. Let’s preserve and promote the heritage that defines our great nation, one story, one tradition, and one state at a time.
+              </p>
+              <hr>
+          </div>
+      </section>
+        <section class="stt" id="statess">
+          <h2>States</h2>
+        </section>
+        <section class="states">
+          <div class="box-states">
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Andhra"><div class="sizee">Andhra Pradesh</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Arunachal"><div class="sizee">Arunachal Pradesh</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Assam"><div class="sizee">Assam</div></div></a>
+            <a href="http://localhost:3000/states/bihar"><div class="state-box Bihar"><div class="sizee">Bihar</div></div></a>
+            <a href="http://localhost:3000/states/"><div class="state-box Chhattisgarh"><div class="sizee">Chhattisgarh</div></div></a>
+            <a href="http://localhost:3000/states/goa"><div class="state-box Goa"><div class="sizee">Goa</div></div></a>
+            <a href="http://localhost:3000/states/Gujarat"><div class="state-box Gujarat"><div class="sizee">Gujarat</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Haryana"><div class="sizee">Haryana</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Himachal"><div class="sizee">Himachal Pradesh</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Jharkhand"><div class="sizee">Jharkhand</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Karnataka"><div class="sizee">Karnataka</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Kerala"><div class="sizee">Kerala</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Madhya"><div class="sizee">Madhya Pradesh</div></div></a>
+            <a href="http://localhost:3000/states/maharashtra"><div class="state-box Maharashtra"><div class="sizee">Maharashtra</div></div></a>
+            <a href="http://localhost:3000/states/manipur"><div class="state-box Manipur"><div class="sizee">Manipur</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Meghalaya"><div class="sizee">Meghalaya</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Mizoram"><div class="sizee">Mizoram</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Nagaland"><div class="sizee">Nagaland</div></div></a>
+            <a href="http://localhost:3000/states/odisha"><div class="state-box Odisha"><div class="sizee">Odisha</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Punjab"><div class="sizee">Punjab</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Rajasthan"><div class="sizee">Rajasthan</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Sikkim"><div class="sizee">Sikkim</div></div></a>
+            <a href="http://localhost:3000/states/tamilnadu"><div class="state-box Tamil Nadu"><div class="sizee">Tamil Nadu</div></div></a>
+            <a href="http://localhost:3000/states/"><div class="state-box Telangana"><div class="sizee">Telangana</div></div></a>
+            <a href="http://localhost:3000/states/tripura"><div class="state-box Tripura"><div class="sizee">Tripura</div></div></a>
+            <a href="http://localhost:3000/states/uttarpradesh"><div class="state-box Uttar Pradesh"><div class="sizee">Uttar Pradesh</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box Uttarakhand"><div class="sizee">Uttarakhand</div></div></a>
+            <a href="http://localhost:3000/states/uttarprades"><div class="state-box West Bengal"><div class="sizee">West Bengal</div></div></a>
+            
+            
+            
+          </div>
+        </section>
+        
+      </main>
+
+    </div>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 ">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 ">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 ">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 ">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 ">About</a></li>
+      </ul>
+      <p class="text-center ">© 2024 Company, Inc</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+

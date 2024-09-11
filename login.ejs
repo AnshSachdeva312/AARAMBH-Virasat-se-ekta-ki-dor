@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  <title>Login</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("/images/Loginpage.jpg");
+      background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      
+    }
+    
+    .container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-box {
+      background-color: #5e0404;
+      
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+      width: 350px;
+      text-align: center;
+    }
+
+    .login-box h2 {
+      color: #e94560;
+      margin-bottom: 30px;
+    }
+
+    .login-box form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px; 
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff9d00; 
+      color: white;
+      box-sizing: border-box; 
+    }
+
+    .login-box input[type="submit"] {
+      background-color: #e94560; 
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background-color: #d62f46;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .logo i {
+      font-size: 24px;
+      color: #d62f46;
+    }
+
+    a {
+      color: #e94560;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 20px; 
+    }
+
+    .links a {
+      display: block;
+      margin-top: 15px;
+    }
+
+    .links .create-account {
+      font-size: 14px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <i class="fa-solid fa-shield-alt logo-img"></i>
+  </div>
+  <div class="container">
+    <div class="login-box">
+      <h2>Login</h2>
+      <form action="/login" method="POST">
+        <input type="text" name="username" placeholder="Email or Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </form>
+      <div class="links">
+        <a href="#">Forgot Password?</a>
+        <a href="http://localhost:3000/signup" class="create-account">Create Account</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
