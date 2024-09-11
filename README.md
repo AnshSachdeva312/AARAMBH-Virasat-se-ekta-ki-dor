@@ -16,7 +16,7 @@ Aarambh – A centralized platform for Indian heritage, culture, and languages. 
 ## HOW TO OPEN IT:
 1. Clone this GitHub Repository.
 2. Put all the files in the same folder.
-3. Make sure to download all the images placed in the [folder]().
+3. Make sure to download all the images placed in the [folder](https://github.com/AnshSachdeva312/AARAMBH-Virasat-se-ekta-ki-dor/tree/main/Images).
 4. Make sure to download node.js. Also, on VS Code download the packages express.js, nodemon.
 5. Create a "models" folder and save [main.js]() file in it.
 6. Now enter on Google search bar "localhost:3000"
