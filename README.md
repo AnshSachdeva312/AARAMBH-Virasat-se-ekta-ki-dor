@@ -22,3 +22,6 @@ Aarambh – A centralized platform for Indian heritage, culture, and languages. 
 6. Download all the ejs files.
 7. Now enter on Google search bar "localhost:3000"
 8. Explore the Website.
+
+## Output Images
+1.[Output Image 1] (
