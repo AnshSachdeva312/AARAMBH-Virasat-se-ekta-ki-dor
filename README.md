@@ -18,6 +18,7 @@ Aarambh – A centralized platform for Indian heritage, culture, and languages. 
 2. Put all the files in the same folder.
 3. Make sure to download all the images placed in the [folder](https://github.com/AnshSachdeva312/AARAMBH-Virasat-se-ekta-ki-dor/tree/main/Images).
 4. Make sure to download node.js. Also, on VS Code download the packages express.js, nodemon.
-5. Create a "models" folder and save [main.js]() file in it.
-6. Now enter on Google search bar "localhost:3000"
-7. Explore the Website.
+5. Create a "models" folder and save [main.js](https://github.com/AnshSachdeva312/AARAMBH-Virasat-se-ekta-ki-dor/blob/main/main.js) file in it.
+6. Download all the ejs files.
+7. Now enter on Google search bar "localhost:3000"
+8. Explore the Website.
